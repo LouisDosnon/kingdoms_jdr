@@ -1,0 +1,12 @@
+{
+  "name": "armure lourde",
+  "element": [
+    {
+      "name": "armure de plaque",
+      "description": "armure de plaque",
+      "image": "",
+      "resistance": "tranchant, perçant",
+      "armorClass": "15"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "consequences": [
+    {
+      "dice": 1,
+      "name": "Côtes fracturées",
+      "gravity": "grave",
+      "effects": [
+        "Douleur intense",
+        "Malus de -15 aux actions physiques"
+      ]
+    },
+    {
+      "dice": 2,
+      "name": "Côtes multiples fracturées",
+      "gravity": "grave",
+      "effects": [
+        "Respiration douloureuse",
+        "Malus de -20 aux actions physiques"
+      ]
+    },
+    {
+      "dice": 3,
+      "name": "Contusion thoracique",
+      "gravity": "grave",
+      "effects": [
+        "Douleur",
+        "Respiration difficile"
+      ]
+    },
+    {
+      "dice": 4,
+      "name": "Hématome profond",
+      "gravity": "grave",
+      "effects": [
+        "Douleur",
+        "Malus de -10 pendant 1d6 jours"
+      ]
+    },
+    {
+      "dice": 5,
+      "name": "Plaie profonde",
+      "gravity": "grave",
+      "effects": [
+        "Saignement",
+        "Risque d'infection"
+      ]
+    },
+    {
+      "dice": 6,
+      "name": "Lésion musculaire",
+      "gravity": "grave",
+      "effects": [
+        "Malus de -20 aux efforts physiques",
+        "Douleur pendant 1d6 jours"
+      ]
+    },
+    {
+      "dice": 7,
+      "name": "Côte perforante",
+      "gravity": "critique",
+      "effects": [
+        "Risque de lésion interne",
+        "Respiration difficile"
+      ]
+    },
+    {
+      "dice": 8,
+      "name": "Traumatisme abdominal",
+      "gravity": "critique",
+      "effects": [
+        "Douleur abdominale",
+        "Risque d'hémorragie interne"
+      ]
+    },
+    {
+      "dice": 9,
+      "name": "Hémorragie interne légère",
+      "gravity": "critique",
+      "effects": [
+        "Perte de 1 PV global toutes les 6 heures",
+        "Faiblesse progressive"
+      ]
+    },
+    {
+      "dice": 10,
+      "name": "Poumon contusionné",
+      "gravity": "critique",
+      "effects": [
+        "Respiration difficile",
+        "Malus de -20 aux actions physiques"
+      ]
+    },
+    {
+      "dice": 11,
+      "name": "Poumon perforé",
+      "gravity": "critique",
+      "effects": [
+        "Respiration extrêmement difficile",
+        "Aggravation rapide sans soins"
+      ]
+    },
+    {
+      "dice": 12,
+      "name": "Hémorragie interne",
+      "gravity": "critique",
+      "effects": [
+        "Perte progressive de PV globaux",
+        "Risque d'inconscience"
+      ]
+    },
+    {
+      "dice": 13,
+      "name": "Traumatisme d'un organe",
+      "gravity": "critique",
+      "effects": [
+        "Douleur intense",
+        "Risque d'hémorragie interne"
+      ]
+    },
+    {
+      "dice": 14,
+      "name": "Lésion abdominale sévère",
+      "gravity": "critique",
+      "effects": [
+        "Incapacité à combattre",
+        "Risque d'infection interne"
+      ]
+    },
+    {
+      "dice": 15,
+      "name": "Hémorragie majeure",
+      "gravity": "mortelle",
+      "effects": [
+        "Perte de PV globaux chaque minute",
+        "Risque d'inconscience"
+      ]
+    },
+    {
+      "dice": 16,
+      "name": "Organe gravement touché",
+      "gravity": "mortelle",
+      "effects": [
+        "Aggravation rapide",
+        "Jet d'Endurance très difficile"
+      ]
+    },
+    {
+      "dice": 17,
+      "name": "Lésion cardiaque ou vasculaire",
+      "gravity": "mortelle",
+      "effects": [
+        "Hémorragie massive",
+        "Risque immédiat de décès"
+      ]
+    },
+    {
+      "dice": 18,
+      "name": "Traumatisme thoracique catastrophique",
+      "gravity": "mortelle",
+      "effects": [
+        "Respiration presque impossible",
+        "Risque extrême de décès"
+      ]
+    },
+    {
+      "dice": 19,
+      "name": "Blessure mortelle",
+      "gravity": "fatale",
+      "effects": [
+        "Mort imminente sans intervention immédiate"
+      ]
+    },
+    {
+      "dice": 20,
+      "name": "Blessure immédiatement mortelle",
+      "gravity": "fatale",
+      "effects": [
+        "Mort immédiate"
+      ]
+    }
+  ]
+}

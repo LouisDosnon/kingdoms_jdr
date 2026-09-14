@@ -1,0 +1,12 @@
+{
+  "name": "armure moyenne",
+  "element": [
+    {
+      "name": "armure de maille",
+      "description": "armure de maille",
+      "image": "",
+      "resistance": "perçant",
+      "armorClass": "13"
+    }
+  ]
+}

@@ -21,15 +21,10 @@ a,
   }
 }
 
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
+div {
+  margin: 1rem 0;
+}
 
-  #app {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bolder;
 }

@@ -1,0 +1,184 @@
+{
+  "consequences": [
+    {
+      "dice": 1,
+      "name": "Contusion sévère",
+      "gravity": "grave",
+      "effects": [
+        "Délacement réduit de moitié pendant 1d6 heures"
+      ]
+    },
+    {
+      "dice": 2,
+      "name": "Entorse sévère",
+      "gravity": "grave",
+      "effects": [
+        "Déplacement fortement réduit",
+        "Malus de -20"
+      ]
+    },
+    {
+      "dice": 3,
+      "name": "Genou luxé",
+      "gravity": "grave",
+      "effects": [
+        "Impossible de courir",
+        "Déplacement difficile"
+      ]
+    },
+    {
+      "dice": 4,
+      "name": "Cheville gravement endommagée",
+      "gravity": "grave",
+      "effects": [
+        "Impossible de courir",
+        "Déplacement fortement réduit"
+      ]
+    },
+    {
+      "dice": 5,
+      "name": "Fracture simple du tibia",
+      "gravity": "grave",
+      "effects": [
+        "Jambe inutilisable",
+        "Impossible de se déplacer sans aide"
+      ]
+    },
+    {
+      "dice": 6,
+      "name": "Fracture du péroné",
+      "gravity": "grave",
+      "effects": [
+        "Déplacement fortement réduit",
+        "Douleur importante"
+      ]
+    },
+    {
+      "dice": 7,
+      "name": "Fracture du fémur",
+      "gravity": "critique",
+      "effects": [
+        "Jambe inutilisable",
+        "Hémorragie interne possible"
+      ]
+    },
+    {
+      "dice": 8,
+      "name": "Fracture déplacée",
+      "gravity": "critique",
+      "effects": [
+        "Jambe inutilisable",
+        "Risque de séquelles"
+      ]
+    },
+    {
+      "dice": 9,
+      "name": "Plaie profonde",
+      "gravity": "critique",
+      "effects": [
+        "Hémorragie",
+        "Risque d'infection"
+      ]
+    },
+    {
+      "dice": 10,
+      "name": "Artère sectionnée",
+      "gravity": "critique",
+      "effects": [
+        "Hémorragie importante",
+        "Risque de décès sans soins rapides"
+      ]
+    },
+    {
+      "dice": 11,
+      "name": "Tendon sectionné",
+      "gravity": "critique",
+      "effects": [
+        "Perte importante de mobilité",
+        "Risque de séquelle permanente"
+      ]
+    },
+    {
+      "dice": 12,
+      "name": "Ligament majeur sectionné",
+      "gravity": "critique",
+      "effects": [
+        "Déplacement fortement réduit",
+        "Risque de séquelle permanente"
+      ]
+    },
+    {
+      "dice": 13,
+      "name": "Nerf endommagé",
+      "gravity": "critique",
+      "effects": [
+        "Perte partielle de sensibilité",
+        "Déplacement difficile"
+      ]
+    },
+    {
+      "dice": 14,
+      "name": "Fracture ouverte",
+      "gravity": "critique",
+      "effects": [
+        "Hémorragie",
+        "Risque d'infection élevé",
+        "Jambe inutilisable"
+      ]
+    },
+    {
+      "dice": 15,
+      "name": "Membre gravement mutilé",
+      "gravity": "irréversible",
+      "effects": [
+        "Mobilité fortement réduite",
+        "Risque d'amputation"
+      ]
+    },
+    {
+      "dice": 16,
+      "name": "Artère fémorale touchée",
+      "gravity": "mortelle",
+      "effects": [
+        "Hémorragie massive",
+        "Risque très élevé de décès"
+      ]
+    },
+    {
+      "dice": 17,
+      "name": "Jambe presque sectionnée",
+      "gravity": "irréversible",
+      "effects": [
+        "Jambe inutilisable définitivement",
+        "Amputation très probable"
+      ]
+    },
+    {
+      "dice": 18,
+      "name": "Jambe sectionnée",
+      "gravity": "irréversible",
+      "effects": [
+        "Perte de la jambe",
+        "Hémorragie massive"
+      ]
+    },
+    {
+      "dice": 19,
+      "name": "Amputation traumatique",
+      "gravity": "irréversible",
+      "effects": [
+        "Jambe perdue",
+        "Hémorragie massive",
+        "Risque de décès"
+      ]
+    },
+    {
+      "dice": 20,
+      "name": "Hémorragie catastrophique",
+      "gravity": "fatale",
+      "effects": [
+        "Mort si l'hémorragie n'est pas immédiatement contrôlée"
+      ]
+    }
+  ]
+}

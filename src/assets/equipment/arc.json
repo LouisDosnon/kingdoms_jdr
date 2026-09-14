@@ -1,0 +1,13 @@
+{
+  "name": "arc",
+  "element": [
+    {
+      "name": "arc court",
+      "description": "arc court",
+      "image": "",
+      "damage": "1d8",
+      "damageType": "perforant",
+      "range": "100m"
+    }
+  ]
+}

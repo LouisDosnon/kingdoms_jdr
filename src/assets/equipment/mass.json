@@ -1,0 +1,13 @@
+{
+  "name": "masse",
+  "element": [
+    {
+      "name": "masse de combat",
+      "description": "masse de combat",
+      "image": "",
+      "damage": "1d6",
+      "damageType": "contondant",
+      "range": "contact"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "armure legere",
+  "element": [
+    {
+      "name": "armure de cuir",
+      "description": "armure de cuir",
+      "image": "",
+      "resistance": "aucune",
+      "armorClass": "12"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "épée",
+  "element": [
+    {
+      "name": "épée coutre",
+      "description": "épée courte",
+      "image": "",
+      "damage": "1d8",
+      "damageType": "tranchant",
+      "range": "contact"
+    }
+  ]
+}
