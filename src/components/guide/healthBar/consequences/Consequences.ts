@@ -1,5 +1,5 @@
 declare class Consequence {
-    dice: number;
+    dice: string;
     name: string;
     gravity: string;
     effects: string[]

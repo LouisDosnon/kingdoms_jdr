@@ -1,184 +1,114 @@
 {
   "consequences": [
     {
-      "dice": 1,
+      "dice": "1-2",
       "name": "Contusion sévère",
       "gravity": "grave",
       "effects": [
-        "Bras inutilisable pendant 1d6 heures"
+        "action désavantagé sur le bras pendant 1d6 heure"
       ]
     },
     {
-      "dice": 2,
+      "dice": "3-4",
       "name": "Entorse sévère",
       "gravity": "grave",
       "effects": [
-        "Malus de -20 avec le bras pendant 1d6 jours"
+        "Malus de -1 aux actions avec le bras pendant 1d6 jours"
       ]
     },
     {
-      "dice": 3,
+      "dice": "5-6",
       "name": "Luxation de l'épaule",
       "gravity": "grave",
       "effects": [
-        "Bras inutilisable",
+        "Bras inutilisable pendant 1d6 heures",
         "Douleur intense"
       ]
     },
     {
-      "dice": 4,
+      "dice": "7-8",
       "name": "Luxation du coude",
       "gravity": "grave",
       "effects": [
-        "Bras inutilisable",
+        "Bras inutilisable pendant 1d10 heures",
         "Douleur intense"
       ]
     },
     {
-      "dice": 5,
+      "dice": "9-10",
       "name": "Fracture simple de l'avant-bras",
       "gravity": "grave",
       "effects": [
-        "Bras inutilisable",
-        "Malus de -30 avec le bras"
+        "Bras inutilisable pendant 1d4 jours",
+        "Malus de -2 aux actions avec le bras"
       ]
     },
     {
-      "dice": 6,
+      "dice": "11-12",
       "name": "Fracture du poignet",
       "gravity": "grave",
       "effects": [
-        "Main inutilisable",
-        "Malus de -30 aux actions de précision"
+        "Main inutilisable pendant 1d4 jours",
+        "Malus de -4 aux actions de précision/attaque"
       ]
     },
     {
-      "dice": 7,
+      "dice": "13-14",
       "name": "Fracture du bras",
       "gravity": "grave",
       "effects": [
         "Bras inutilisable",
-        "Immobilisation nécessaire"
+        "Immobilisation nécessaire",
+        "Malus de -3 aux actions de précision/attaque"
       ]
     },
     {
-      "dice": 8,
+      "dice": "15-16",
       "name": "Fracture déplacée",
       "gravity": "critique",
       "effects": [
-        "Bras inutilisable",
-        "Risque de séquelles"
+        "Bras inutilisable pendant 1d6 jours",
+        "Risque de séquelles si non replacé",
+        "Malus de -3 aux actions de précision/attaque"
       ]
     },
     {
-      "dice": 9,
+      "dice": "17",
       "name": "Plaie profonde",
       "gravity": "critique",
       "effects": [
-        "Hémorragie",
+        "Hémorragie (-1 pv de vitalité / heures)",
         "Risque d'infection",
         "Bras inutilisable"
       ]
     },
     {
-      "dice": 10,
-      "name": "Artère sectionnée",
-      "gravity": "critique",
-      "effects": [
-        "Hémorragie importante",
-        "Risque de décès sans soins rapides"
-      ]
-    },
-    {
-      "dice": 11,
+      "dice": "18",
       "name": "Tendon sectionné",
       "gravity": "critique",
       "effects": [
-        "Perte importante de mobilité",
-        "Risque de séquelle permanente"
+        "Perte importante de mobilité (-4 a toutes les actions)",
+        "Risque de séquelle permanente",
+        "Malus de -3 aux actions de précision/attaque"
       ]
     },
     {
-      "dice": 12,
-      "name": "Nerf endommagé",
-      "gravity": "critique",
-      "effects": [
-        "Perte partielle de sensibilité",
-        "Malus de -20 avec le bras"
-      ]
-    },
-    {
-      "dice": 13,
-      "name": "Muscles gravement sectionnés",
-      "gravity": "critique",
-      "effects": [
-        "Force du bras réduite",
-        "Risque de séquelle permanente"
-      ]
-    },
-    {
-      "dice": 14,
+      "dice": "19",
       "name": "Fracture ouverte",
       "gravity": "critique",
       "effects": [
-        "Hémorragie",
+        "Hémorragie (-2 pv /heure)",
         "Risque d'infection élevé",
         "Bras inutilisable"
       ]
     },
     {
-      "dice": 15,
-      "name": "Membre gravement mutilé",
-      "gravity": "irréversible",
-      "effects": [
-        "Perte importante de fonctionnalité",
-        "Risque d'amputation"
-      ]
-    },
-    {
-      "dice": 16,
+      "dice": "20",
       "name": "Artère et tissus majeurs détruits",
       "gravity": "mortelle",
       "effects": [
-        "Hémorragie massive",
-        "Risque de décès"
-      ]
-    },
-    {
-      "dice": 17,
-      "name": "Bras presque sectionné",
-      "gravity": "irréversible",
-      "effects": [
-        "Bras inutilisable définitivement",
-        "Amputation très probable"
-      ]
-    },
-    {
-      "dice": 18,
-      "name": "Bras sectionné",
-      "gravity": "irréversible",
-      "effects": [
-        "Perte du bras",
-        "Hémorragie massive",
-        "Amputation complète"
-      ]
-    },
-    {
-      "dice": 19,
-      "name": "Amputation traumatique",
-      "gravity": "irréversible",
-      "effects": [
-        "Bras perdu",
-        "Hémorragie massive",
-        "Risque de décès"
-      ]
-    },
-    {
-      "dice": 20,
-      "name": "Hémorragie catastrophique",
-      "gravity": "fatale",
-      "effects": [
-        "Mort si l'hémorragie n'est pas immédiatement contrôlée"
+        "Hémorragie massive (-3 pv /heure)",
+        "Bras inutilisable"
       ]
     }
   ]

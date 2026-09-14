@@ -1,43 +1,43 @@
 {
   "consequences": [
     {
-      "dice": 1,
+      "dice": "1-2",
       "name": "Coup violent",
       "gravity": "grave",
       "effects": [
-        "Confusion pendant 1d10 minutes",
-        "Malus de -10 à toutes les actions pendant 1 heure"
+        "Confusion pendant 1d6 minutes",
+        "Malus de -1 à tous les actions pendant 1 heure"
       ]
     },
     {
-      "dice": 2,
+      "dice": "3-4",
       "name": "Commotion légère",
       "gravity": "grave",
       "effects": [
-        "Étourdissement",
-        "Malus de -15 aux actions mentales pendant 1d6 heures"
+        "Confusion pendant 1d10 minutes",
+        "Malus de -1 à tous les jets pendant 1d6 heures"
       ]
     },
     {
-      "dice": 3,
+      "dice": "5-6",
       "name": "Commotion",
       "gravity": "grave",
       "effects": [
         "Étourdissement",
-        "Malus de -20 pendant 1d6 heures"
+        "Malus de -2 à tous les jets pendant 1d6 heures"
       ]
     },
     {
-      "dice": 4,
+      "dice": "7-8",
       "name": "Perte d'équilibre",
       "gravity": "grave",
       "effects": [
         "Chute immédiate",
-        "Impossible de courir pendant 1 heure"
+        "Impossible de courir pendant 1 heure (vitesse divisé par 2)"
       ]
     },
     {
-      "dice": 5,
+      "dice": "9-10",
       "name": "Plaie du cuir chevelu",
       "gravity": "grave",
       "effects": [
@@ -46,7 +46,7 @@
       ]
     },
     {
-      "dice": 6,
+      "dice": "11-12",
       "name": "Œil touché",
       "gravity": "grave",
       "effects": [
@@ -55,7 +55,7 @@
       ]
     },
     {
-      "dice": 7,
+      "dice": "13-14",
       "name": "Oreille touchée",
       "gravity": "grave",
       "effects": [
@@ -64,63 +64,28 @@
       ]
     },
     {
-      "dice": 8,
+      "dice": "15-16",
       "name": "Fracture du nez",
       "gravity": "grave",
       "effects": [
-        "Saignement",
+        "Saignement (-1 pv de vitalité / heure)",
         "Douleur importante",
-        "Malus de -10 pendant 1d6 jours"
+        "Malus de -1 a tous les jets pendant 1d6 heures"
       ]
     },
     {
-      "dice": 9,
+      "dice": "17",
       "name": "Mâchoire fracturée",
       "gravity": "critique",
       "effects": [
+        "Saignement (-1 pv de vitalité / heure)",
         "Parole difficile",
         "Impossible de manger normalement",
         "Douleur importante"
       ]
     },
     {
-      "dice": 10,
-      "name": "Perte de connaissance",
-      "gravity": "critique",
-      "effects": [
-        "Inconscient pendant 1d10 minutes"
-      ]
-    },
-    {
-      "dice": 11,
-      "name": "Traumatisme crânien",
-      "gravity": "critique",
-      "effects": [
-        "Inconscient pendant 1d6 heures",
-        "Malus de -20 pendant 1d6 jours"
-      ]
-    },
-    {
-      "dice": 12,
-      "name": "Fracture du crâne",
-      "gravity": "critique",
-      "effects": [
-        "Inconscience",
-        "Risque d'aggravation",
-        "Nécessite des soins urgents"
-      ]
-    },
-    {
-      "dice": 13,
-      "name": "Hémorragie intracrânienne",
-      "gravity": "critique",
-      "effects": [
-        "Perte progressive de conscience",
-        "Aggravation sans soins"
-      ]
-    },
-    {
-      "dice": 14,
+      "dice": "18",
       "name": "Traumatisme neurologique",
       "gravity": "critique",
       "effects": [
@@ -129,27 +94,7 @@
       ]
     },
     {
-      "dice": 15,
-      "name": "Lésion cérébrale sévère",
-      "gravity": "mortelle",
-      "effects": [
-        "Inconscient",
-        "Jet d'Endurance immédiat",
-        "Risque élevé de décès"
-      ]
-    },
-    {
-      "dice": 16,
-      "name": "Fracture crânienne ouverte",
-      "gravity": "mortelle",
-      "effects": [
-        "Hémorragie",
-        "Risque élevé d'infection",
-        "Risque de décès"
-      ]
-    },
-    {
-      "dice": 17,
+      "dice": "19",
       "name": "Traumatisme cérébral majeur",
       "gravity": "mortelle",
       "effects": [
@@ -159,28 +104,12 @@
       ]
     },
     {
-      "dice": 18,
+      "dice": "20",
       "name": "Lésion cérébrale catastrophique",
       "gravity": "mortelle",
       "effects": [
         "Inconscient",
-        "Risque extrême de décès"
-      ]
-    },
-    {
-      "dice": 19,
-      "name": "Traumatisme crânien fatal",
-      "gravity": "fatale",
-      "effects": [
-        "Mort sans intervention exceptionnelle"
-      ]
-    },
-    {
-      "dice": 20,
-      "name": "Blessure immédiatement mortelle",
-      "gravity": "fatale",
-      "effects": [
-        "Mort immédiate"
+        "Risque extrême de décès(-2 pv de vitalité / heure)"
       ]
     }
   ]
