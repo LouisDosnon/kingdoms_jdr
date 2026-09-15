@@ -1,0 +1,34 @@
+{
+  "degats": [
+    {
+      "pv-perdu": "1pv-5pv",
+      "consequences": [
+        "Malus -1 a tous les jets"
+      ]
+    },
+    {
+      "pv-perdu": "6pv-7pv",
+      "consequences": [
+        "Malus -2 a tous les jets"
+      ]
+    },
+    {
+      "pv-perdu": "8pv",
+      "consequences": [
+        "Malus -3 a tous les jets"
+      ]
+    },
+    {
+      "pv-perdu": "9pv",
+      "consequences": [
+        "Malus -4 a tous les jets"
+      ]
+    },
+    {
+      "pv-perdu": "10pv",
+      "consequences": [
+        "inconscient"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "infections": [
+    {
+      "time": "0d",
+      "level": "infection débnutante",
+      "consequences": [
+        "légère fievre"
+      ]
+    },
+    {
+      "time": "1d-3d",
+      "level": "infection légère",
+      "consequences": [
+        "légère fievre",
+        "légère douleur",
+        "Malus -1 a tous les jets"
+      ]
+    },
+    {
+      "time": "4d-5d",
+      "level": "infection",
+      "consequences": [
+        "fievre",
+        "douleur",
+        "Malus -2 a tous les jets"
+      ]
+    },
+    {
+      "time": "5d-6d",
+      "level": "infection majeure",
+      "consequences": [
+        "forte fievre",
+        "forte douleur",
+        "Malus -3 a tous les jets"
+      ]
+    },
+    {
+      "time": "7d+",
+      "level": "Gangrène",
+      "consequences": [
+        "forte fievre",
+        "forte douleur",
+        "membre inutilisable",
+        "amputation nécésaire",
+        "si tête ou torse mort"
+      ]
+    }
+  ]
+}

@@ -7,10 +7,12 @@ import leftArmConsequences from "@/assets/healthBarConsequence/left-arm.json"
 import rightArmConsequences from "@/assets/healthBarConsequence/right-arm.json"
 import leftLegConsequences from "@/assets/healthBarConsequence/left-leg.json"
 import rightLegConsequences from "@/assets/healthBarConsequence/right-leg.json"
+import InfectionConsequence from "@/components/guide/healthBar/consequences/InfectionConsequence.vue";
+import GlobalConsequence from "@/components/guide/healthBar/consequences/GlobalConsequence.vue";
 
 export default defineComponent({
   name: "HealthBarGuide",
-  components: {ConsequenceTable, HeadConsequence: ConsequenceTable},
+  components: {GlobalConsequence, InfectionConsequence, ConsequenceTable, HeadConsequence: ConsequenceTable},
   data() {
     return {
       headConsequences: headConsequences,
@@ -49,6 +51,12 @@ export default defineComponent({
 
       </b-accordion>
     </div>
+
+    <h3><u>infection</u></h3>
+    <infection-consequence/>
+
+    <h3><u>Global</u></h3>
+    <global-consequence/>
   </div>
 </template>
 
