@@ -28,8 +28,8 @@ export default defineComponent({
 
 <template>
   <div>
-    <h3><u>bars de vie:</u></h3>
-    <p>
+    <h3 class="fw-bolder">bars de vie:</h3>
+    <p >
       Dans ce jdr vous n'avée qu'une simple bar de vie,<br/>
       Une bar de vie seras présente par partie du corp(bras, torse, tête, jambes), ainsi qu'une bar de vitalité
       representant l'état générale du personnage.<br/>
@@ -38,24 +38,24 @@ export default defineComponent({
       Si une bar de vie (or vitalité) tombe a 0, 1d20 dois etre lancé pour determiné la consequence<br/>
     </p>
     <br/>
-    <h3><u>consequence d'une bar de vie a 0:</u></h3>
+    <h3 class="fw-bolder">consequence d'une bar de vie a 0:</h3>
 
     <div>
       <b-accordion>
-        <consequence-table name="tête" :consequences="headConsequences"/>
-        <consequence-table name="torse" :consequences="bodyConsequences"/>
-        <consequence-table name="bras gauche" :consequences="leftArmConsequences"/>
-        <consequence-table name="bras droit" :consequences="rightArmConsequences"/>
-        <consequence-table name="jambe gauche" :consequences="leftLegConsequences"/>
-        <consequence-table name="jambe droite" :consequences="rightLegConsequences"/>
+        <consequence-table name="tête" :consequences="headConsequences" class="shadow-lg rounded"/>
+        <consequence-table name="torse" :consequences="bodyConsequences" class="shadow-lg rounded"/>
+        <consequence-table name="bras gauche" :consequences="leftArmConsequences" class="shadow-lg rounded"/>
+        <consequence-table name="bras droit" :consequences="rightArmConsequences" class="shadow-lg rounded"/>
+        <consequence-table name="jambe gauche" :consequences="leftLegConsequences" class="shadow-lg rounded"/>
+        <consequence-table name="jambe droite" :consequences="rightLegConsequences" class="shadow-lg rounded"/>
 
       </b-accordion>
     </div>
 
-    <h3><u>infection</u></h3>
+    <h3 class="fw-bolder">infection</h3>
     <infection-consequence/>
 
-    <h3><u>Global</u></h3>
+    <h3 class="fw-bolder">Global</h3>
     <global-consequence/>
   </div>
 </template>

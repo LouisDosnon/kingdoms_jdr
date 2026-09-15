@@ -18,6 +18,7 @@ export default defineComponent({
         striped
         over
         :items="equipment.element"
+        class="shadow-lg rounded"
     />
   </b-accordion-item>
   <b-accordion-item v-if="armor" :title="armor.name">
@@ -25,6 +26,7 @@ export default defineComponent({
         striped
         over
         :items="armor.element"
+        class="shadow-lg rounded"
     />
 
   </b-accordion-item>

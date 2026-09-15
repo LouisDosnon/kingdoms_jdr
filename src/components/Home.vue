@@ -4,7 +4,7 @@
 
 <template>
   <div>
-    <h1><u>Kingdom's jdr</u></h1>
+    <h1 class=" fw-bolder">Kingdom's jdr</h1>
   </div>
 </template>
 

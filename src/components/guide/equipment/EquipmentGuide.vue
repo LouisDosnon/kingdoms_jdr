@@ -11,7 +11,7 @@ import heavyArmor from "@/assets/equipment/heavy-armor.json"
 export default defineComponent({
   name: "EquipmentGuide",
   components: {Equipment},
-  data () {
+  data() {
     return {
       swordEquipment: swordEquipment,
       massEquipment: massEquipment,
@@ -25,15 +25,17 @@ export default defineComponent({
 </script>
 
 <template>
-  <h3><u>Equipment:</u></h3>
-  <b-accordion>
-    <equipment :equipment="swordEquipment"/>
-    <equipment :equipment="massEquipment"/>
-    <equipment :equipment="arcEquipment"/>
-    <equipment :armor="lightArmor"/>
-    <equipment :armor="mediumArmor"/>
-    <equipment :armor="heavyArmor"/>
-  </b-accordion>
+  <div>
+    <h3 class=" fw-bolder">Equipment:</h3>
+    <b-accordion>
+      <equipment :equipment="swordEquipment" class="shadow-lg rounded"/>
+      <equipment :equipment="massEquipment" class="shadow-lg rounded"/>
+      <equipment :equipment="arcEquipment" class="shadow-lg rounded"/>
+      <equipment :armor="lightArmor" class="shadow-lg rounded"/>
+      <equipment :armor="mediumArmor" class="shadow-lg rounded"/>
+      <equipment :armor="heavyArmor" class="shadow-lg rounded"/>
+    </b-accordion>
+  </div>
 </template>
 
 <style scoped>

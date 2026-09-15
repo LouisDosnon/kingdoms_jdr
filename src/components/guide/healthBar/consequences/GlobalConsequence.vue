@@ -17,6 +17,7 @@ export default defineComponent({
       striped
       over
       :items="globalConsequences?.degats"
+      class="shadow-lg rounded"
   />
 </template>
 

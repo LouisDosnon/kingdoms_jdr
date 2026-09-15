@@ -13,16 +13,16 @@ export default defineComponent({
 
 <template>
   <div>
-    <h2><u>création du personnage</u></h2>
+    <h2 class=" fw-bolder">création du personnage</h2>
     <b-tabs>
-      <b-tab title="bar de vie" active>
-        <health-bar-guide/>
+      <b-tab title="bar de vie" active class="shadow-lg bg-secondary.bg-gradient rounded">
+        <health-bar-guide class="p-3"/>
       </b-tab>
-      <b-tab title="equipement">
-        <equipment-guide/>
+      <b-tab title="equipement" class="shadow-lg bg-secondary.bg-gradient rounded">
+        <equipment-guide class="p-3"/>
       </b-tab>
-      <b-tab title="combat">
-        <combat-guide/>
+      <b-tab title="combat" class="shadow-lg bg-secondary.bg-gradient rounded">
+        <combat-guide class="p-3"/>
       </b-tab>
     </b-tabs>
   </div>

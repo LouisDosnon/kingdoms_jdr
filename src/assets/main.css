@@ -25,6 +25,10 @@ div {
   margin: 1rem 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bolder;
+.nav-link {
+  color: white !important;
+}
+
+.nav-link.active {
+  color: black !important;
 }

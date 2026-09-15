@@ -20,20 +20,24 @@ const hitLocations = [
 </script>
 
 <template>
-  <h3>déroulement d'un combat</h3>
-  <ol>
-    <li>lancé des jets d'initiative</li>
-    <li>
-      lancé d'un d20 d'attaque et d'un d10 pour savoir où le coup touche.<br/>
-      <b-table
-          striped
-          hover
-          :items="hitLocations"/>
-      Il est possible de choisir la cible d'une attaque mais cela engendre un desavantage<br>
-    </li>
-    <li>en cas de dégat si l'armure possède un resistance a ce type de dégat les dégat sont divisé par 2</li>
-    <li>si le membre touché atteint 0 pv se referer au au tableau de consequence relatif a ce membre</li>
-  </ol>
+  <div>
+    <h3 class=" fw-bolder">déroulement d'un combat</h3>
+    <ol>
+      <li>lancé des jets d'initiative</li>
+      <li>
+        lancé d'un d20 d'attaque et d'un d10 pour savoir où le coup touche.<br/>
+        <b-table
+            striped
+            hover
+            :items="hitLocations"
+            class="shadow-lg rounded"
+        />
+        Il est possible de choisir la cible d'une attaque mais cela engendre un desavantage<br>
+      </li>
+      <li>en cas de dégat si l'armure possède un resistance a ce type de dégat les dégat sont divisé par 2</li>
+      <li>si le membre touché atteint 0 pv se referer au au tableau de consequence relatif a ce membre</li>
+    </ol>
+  </div>
 </template>
 
 <style scoped>

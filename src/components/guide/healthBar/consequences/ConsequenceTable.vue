@@ -17,6 +17,7 @@ export default defineComponent({
         striped
         over
         :items="consequences?.consequences"
+        class="shadow-lg rounded"
     />
   </b-accordion-item>
 </template>

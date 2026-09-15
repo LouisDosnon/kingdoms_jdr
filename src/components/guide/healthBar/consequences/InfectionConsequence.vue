@@ -17,6 +17,7 @@ export default defineComponent({
       striped
       over
       :items="infectionConsequences?.infections"
+      class="shadow-lg rounded"
   />
 </template>
 
